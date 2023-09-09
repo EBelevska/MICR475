@@ -1,0 +1,16 @@
+---
+title: "hmwk_005.qmd"
+author: "Eva Belevska"
+format: html
+editor: visual
+---
+
+## Homework Number 1
+
+I am completing the first homework assignment for my Reproducible Data Analysis class.
+
+## Things I am looking forward to this semester:
+
+-   Learning how to use R
+-   Doing research
+-   Colder weather
