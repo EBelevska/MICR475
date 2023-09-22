@@ -1,4 +1,4 @@
-# HWK_03
+# Homework 3
 Eva Belevska
 
 # Creating and naming variables
@@ -98,8 +98,6 @@ library(palmerpenguins)
 **Recreate the visualization of body_mass_g to flipper_length_mm, from
 the penguins data set, that is shown in question 8 of section 2.2.5 of
 R4DS.**
-
-<img src="HWK_03_plot.png" data-fig-align="left" />
 
 ``` r
 ggplot(data = penguins, 
