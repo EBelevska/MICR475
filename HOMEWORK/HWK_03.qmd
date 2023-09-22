@@ -65,13 +65,14 @@ The code has an error message because you are trying to add three numbers to fou
 
 ```{r, message = FALSE}
 library(tidyverse)
+library(palmerpenguins)
 ```
 
 **Recreate the visualization of body_mass_g to flipper_length_mm, from the penguins data set, that is shown in question 8 of section 2.2.5 of R4DS.**
 
 ![](HWK_03_plot.png){fig-align="left"}
 
-```{n, message = FALSE}
+```{r, message = FALSE}
 ggplot(data = penguins, 
        mapping = aes(x=flipper_length_mm, y=body_mass_g, color = bill_depth_mm)) +
   geom_point(aes(color = bill_depth_mm)) +
