@@ -1,5 +1,5 @@
 ---
-title: "HWK_03"
+title: "Homework 3"
 author: "Eva Belevska"
 format: gfm
 editor: visual
@@ -69,8 +69,6 @@ library(palmerpenguins)
 ```
 
 **Recreate the visualization of body_mass_g to flipper_length_mm, from the penguins data set, that is shown in question 8 of section 2.2.5 of R4DS.**
-
-![](HWK_03_plot.png){fig-align="left"}
 
 ```{r, message = FALSE}
 ggplot(data = penguins, 
