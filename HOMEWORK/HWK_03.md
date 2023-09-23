@@ -28,13 +28,10 @@ getwd()
 
     [1] "/Users/eva/Desktop/Semester 5/MICRO475/HOMEWORK"
 
-I think that this would be a good working directory because there was no
-error message. For example, if the program gave me an error code that
-said (!is.null(WD)) then that directory would not work and you would
-have to set it to another one. Furthermore, this directory is
-specifically for this class, which will keep my files organized if I
-have other projects I am using R for. I think the progeam that sets it
-that way is R.
+I think that this would be a good working directory because this
+directory is specifically for this class, which will keep my files
+organized if I have other projects I am using R studio for. I think the
+progeam that sets it that way is R.
 
 # Vectors
 
@@ -73,16 +70,31 @@ rm(list = ls())
 whether you think this was a good decision on the part of the designers
 of R?**
 
-The code has an error message because you are trying to add three
-numbers to four numbers. You need to have the same amount of numbers in
-each script in order to add them together. I think that this was a good
-decision because the program wouldn’t know what to do with the last
-number and it could potentially do something you did not intend for it
-to do.
+``` r
+v1 <- 1:3
+v2 <- c(1:4)
+v1 + v2
+```
+
+    [1] 2 4 6 5
+
+The code is adding the last number in the first vector to the first
+number in the second vector. I think that it was a good idea because
+while it could mess you up in this specific example, this same function
+allows you to add one number to a vector of numbers. For example, if you
+wanted to add the number 1 to a list of numbers, you could make the list
+of numbers one vector, and the individual number another vector.
 
 **Explain what the following code does. It may be helpful to reference
-the answer to the previous question:** The code is adding 3 to each
-number in vector.
+the answer to the previous question:**
+
+``` r
+c(1, 5, 9) + 3
+```
+
+    [1]  4  8 12
+
+The code is adding 3 to each number in vector.
 
 # Graphics
 
@@ -103,20 +115,10 @@ R4DS.**
 ggplot(data = penguins, 
        mapping = aes(x=flipper_length_mm, y=body_mass_g, color = bill_depth_mm)) +
   geom_point(aes(color = bill_depth_mm)) +
-  geom_smooth(se = FALSE)
+  geom_smooth(method="loess")
 ```
 
-    Warning: Removed 2 rows containing non-finite values (`stat_smooth()`).
-
-    Warning: The following aesthetics were dropped during statistical transformation: colour
-    ℹ This can happen when ggplot fails to infer the correct grouping structure in
-      the data.
-    ℹ Did you forget to specify a `group` aesthetic or to convert a numerical
-      variable into a factor?
-
-    Warning: Removed 2 rows containing missing values (`geom_point()`).
-
-![](HWK_03_files/figure-commonmark/unnamed-chunk-9-1.png)
+![](HWK_03_files/figure-commonmark/unnamed-chunk-11-1.png)
 
 **Explain why each aesthetic is mapped at the level that it is (i.e., at
 the global level, in the ggplot() function call, or at the geom level,
