@@ -61,9 +61,9 @@ v2 <- c(1:4)
 v1 + v2
 ```
 
-The code is adding the last number in the first vector to the first number in the second vector. I think that it was a good idea because while it could mess you up in this specific example, this same function allows you to add one number to a vector of numbers. For example, if you wanted to add the number 1 to a list of numbers, you could make the list of numbers one vector, and the individual number another vector. 
+The code is adding the last number in the first vector to the first number in the second vector. I think that it was a good idea because while it could mess you up in this specific example, this same function allows you to add one number to a vector of numbers. For example, if you wanted to add the number 1 to a list of numbers, you could make the list of numbers one vector, and the individual number another vector.
 
-**Explain what the following code does. It may be helpful to reference the answer to the previous question:** 
+**Explain what the following code does. It may be helpful to reference the answer to the previous question:**
 
 ```{r}
 c(1, 5, 9) + 3
@@ -88,6 +88,8 @@ ggplot(data = penguins,
   geom_point(aes(color = bill_depth_mm)) +
   geom_smooth(method="loess")
 ```
+
+HOMEWORK/HWK_03_plot.png/
 
 **Explain why each aesthetic is mapped at the level that it is (i.e., at the global level, in the ggplot() function call, or at the geom level, in the geom_XXX() function call). Note: A lot of different options will work, but some options are clearly better than others.**
 
