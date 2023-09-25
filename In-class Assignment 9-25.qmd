@@ -1,7 +1,7 @@
 ---
 title: "In-class Assignment 09/25"
 author: "Eva Belevska"
-format: html
+format: gfm
 editor: visual
 ---
 
