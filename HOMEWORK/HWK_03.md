@@ -116,7 +116,7 @@ ggplot(data = penguins,
 
 ![](HWK_03_files/figure-commonmark/unnamed-chunk-11-1.png)
 
-HMK_03_files/figure-gfm/
+![](HWK_03_graph.png)
 
 **Explain why each aesthetic is mapped at the level that it is (i.e., at the global level, in the ggplot() function call, or at the geom level, in the geom_XXX() function call). Note: A lot of different options will work, but some options are clearly better than others.**
 
