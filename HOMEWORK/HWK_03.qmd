@@ -69,7 +69,7 @@ The code is adding the last number in the first vector to the first number in th
 c(1, 5, 9) + 3
 ```
 
-The code is adding 3 to each number in vector.
+The code is adding 3, which is a vector that only has one number, to the first vector that had multiple numbers. This means that each number in the first vector is getting 3 added to it. 
 
 # Graphics
 
