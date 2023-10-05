@@ -1,4 +1,7 @@
-# Homework 6
+---
+title: "Homework 6"
+format: gfm
+---
 
 ## Unsuccessful Plot
 
