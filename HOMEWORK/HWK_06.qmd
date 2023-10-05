@@ -1,0 +1,19 @@
+# Homework 6
+
+## Unsuccessful Plot
+
+![](images/Screenshot%202023-10-04%20at%2011.28.25%20AM-02.png)
+
+Cotter, D. J., Stefanik, K., Zhang, Y., Thamer, M., Scharfstein, D., & Kaufman, J. (2004, November 2). *Hematocrit was not validated as a surrogate end point for survival among epoetin-treated hemodialysis patients*. Journal of Clinical Epidemiology. https://www.sciencedirect.com/science/article/pii/S0895435604001398?via%3Dihub
+
+This plot is ugly and bad according to the information provided by Wilke and Healy .
+
+To begin with, the plot is ugly because aesthetically it is not very pretty to look at because it has a lot going on. There are different percentages of Hematocrit Groups, then there are different quarters, and finally there is also the hazard ratio. Additionally The colors that were chosen to distinguish the different bars from each other could be confused by people who are colorblind. Furthermore, another reason as to why it is ugly is also related to why it is bad. The 3D nature of the graph makes it very hard to read. This means that some of the columns are covered up by the ones that are in front of it. It is also hard to estimate what the exact value of each column is unless it is near the edge of the plot. In order to read the graph, you would need to take into account the distance and depth the column is at from the axes. It would have been much easier to read if instead of attempting to plot all of this information on one plot, they would have made separate plots. They also could have used grouped bars to show the information.
+
+## Successful Plot
+
+![](images/Screenshot%202023-10-05%20at%207.32.22%20PM.png)
+
+Iwasa, K., Yagishita, S., Yagishita-Kyo, N. *et al.* Long term administration of loquat leaves and their major component, ursolic acid, attenuated endogenous amyloid-β burden and memory impairment. *Sci Rep* **13**, 16770 (2023). https://doi.org/10.1038/s41598-023-44098-3
+
+This is a good plot because it is clear and easy to read. Instead of using colors the authors instead opted to use constrasting shades instead. This ensures that the figures will be easy to read for people who are colorblind. Furthermore, there is also a key to show which shade is which. Furthermore, the authors used grouped bars instead of a 3D model like the authors of the first graph. This makes the graph clear when reading because it is easy to find the value of each bar. The only thing I can find wrong with this graph is that the x-axes could have been labeled a bit more clearly. The labels stand for time in months, and this could have been added as an additional label to offer some more clarity. Overall, it is simple and easy to read, which is why it is a good plot.
