@@ -31,7 +31,7 @@ They also could have used grouped bars to show the information.
 
 ## Successful Plot
 
-Successful Plot.png)
+![](Successful Plot.png)
 
 Iwasa, K., Yagishita, S., Yagishita-Kyo, N. *et al.* Long term
 administration of loquat leaves and their major component, ursolic acid,
