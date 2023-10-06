@@ -1,3 +1,9 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
 # Homework 6
 
 ## Unsuccessful Plot
@@ -8,7 +14,7 @@ Cotter, D. J., Stefanik, K., Zhang, Y., Thamer, M., Scharfstein, D., &
 Kaufman, J. (2004, November 2). *Hematocrit was not validated as a
 surrogate end point for survival among epoetin-treated hemodialysis
 patients*. Journal of Clinical Epidemiology.
-https://www.sciencedirect.com/science/article/pii/S0895435604001398?via%3Dihub
+<https://www.sciencedirect.com/science/article/pii/S0895435604001398?via%3Dihub>
 
 This plot is ugly and bad according to the information provided by Wilke
 and Healy .
@@ -31,12 +37,12 @@ They also could have used grouped bars to show the information.
 
 ## Successful Plot
 
-![](Successful Plot.png)
+![](Successful%20Plot.png)
 
 Iwasa, K., Yagishita, S., Yagishita-Kyo, N. *et al.* Long term
 administration of loquat leaves and their major component, ursolic acid,
 attenuated endogenous amyloid-β burden and memory impairment. *Sci Rep*
-**13**, 16770 (2023). https://doi.org/10.1038/s41598-023-44098-3
+**13**, 16770 (2023). <https://doi.org/10.1038/s41598-023-44098-3>
 
 This is a good plot because it is clear and easy to read. Instead of
 using colors the authors instead opted to use constrasting shades
