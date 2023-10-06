@@ -2,7 +2,7 @@
 
 ## Unsuccessful Plot
 
-![](images/Screenshot%202023-10-04%20at%2011.28.25%20AM-02.png)
+![](Unsuccessful%20Plot.png)
 
 Cotter, D. J., Stefanik, K., Zhang, Y., Thamer, M., Scharfstein, D., &
 Kaufman, J. (2004, November 2). *Hematocrit was not validated as a
@@ -31,7 +31,7 @@ They also could have used grouped bars to show the information.
 
 ## Successful Plot
 
-![](images/Screenshot%202023-10-05%20at%207.32.22%20PM.png)
+Successful Plot.png.png)
 
 Iwasa, K., Yagishita, S., Yagishita-Kyo, N. *et al.* Long term
 administration of loquat leaves and their major component, ursolic acid,
