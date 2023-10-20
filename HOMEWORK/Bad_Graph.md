@@ -5,6 +5,8 @@ Eva Belevska
 
 ## Bad Plot
 
+![](bad_plot_HWK_7.png)
+
 ``` r
 library(tidyverse)
 library(palmerpenguins)
@@ -36,6 +38,8 @@ islands. However, it fails to do present this data in a way that is easy
 to read.
 
 ## Fixed Plot
+
+![](fixed_plot_HWK_7.png)
 
 ``` r
 ggplot(penguins, aes(x=bill_length_mm, y=bill_depth_mm, color=island)) +
