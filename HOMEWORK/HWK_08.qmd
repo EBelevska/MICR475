@@ -1,0 +1,47 @@
+---
+title: "HMK 08 template"
+format: gfm
+---
+```{r}
+library(tidyverse)
+library(dplyr)
+library(nycflights13)
+
+flights2 <- flights |> 
+  select(year, time_hour, origin, dest, tailnum, carrier)
+flights2 |> 
+  left_join(airlines) |> 
+  nrow()
+nrow(flights2)
+```
+
+
+# Joins
+
+1. Imagine you’ve found the top 10 most popular destinations using this code:
+```{r}
+top_dest <- flights2 |>
+  count(dest, sort = TRUE) |>
+  head(10)
+```
+How can you find all flights to those destinations?
+```{r, warning=FALSE, message=FALSE}
+all_flights <- top_dest |>
+  left_join(flights)
+sum(is.na(flights2$name))
+select(flights, dest)
+```
+
+# Functions
+
+2. Write a function to 'rescale' a numeric vector by subtracting the mean of the vector from each element and then dividing each element by the standard deviation. 
+```{r}
+v <- (1:5)
+
+rescale <- function(v) {
+  ( v - mean(v, na.rm = TRUE)) / sd(v, na.rm = TRUE)
+}
+
+rescale(v)
+```
+
