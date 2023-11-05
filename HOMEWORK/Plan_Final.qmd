@@ -1,7 +1,7 @@
 ---
 title: "Plan_Final"
 author: "Eva Belevska"
-format: html
+format: gfm
 editor: visual
 ---
 
