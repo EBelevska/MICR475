@@ -7,8 +7,9 @@ Eva Belevska
 
 2.  My project is an analysis.
 
-3.  I am planning on analyzing a time series dataset by creating graphs
-    and using the prophet package. My analysis will use prophet to show
-    any trends in the data that may have occured as time passed.
-    Furthermore, my analysis will also show if there are any peaks in
-    the data.
+3.  I am planning on analyzing a time series data set by using the
+    prophet package. The problem my analysis will solve is looking at
+    trends in the data. My analysis will use prophet to show any trends
+    in the data that may have occurred as time has passed. Furthermore,
+    my analysis will also show if there are any peaks in the data. This
+    could help us draw conclusions from the dataset.
