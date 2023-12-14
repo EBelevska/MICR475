@@ -37,7 +37,7 @@ The inflection points show that the OD of the bacteria did not have an inflectio
 
 The following code was used to generate a graph with the data:
 
-```{r, messages = FALSE, warning = FALSE}
+```{r}
 #A plot was created using the data frame that was previously loaded.
 cell_density_graph_3 <- ggplot(data = cell_density,
   mapping = aes(x = Time, y = Mean, color = factor(VLPMOI)))+
@@ -63,7 +63,7 @@ print(cell_density_graph_3)
 
 A graph of the different infection rates was generated as well, clearly showing the difference between each one using loess to smooth the data:
 
-```{r, messages = FALSE, warning = FALSE}
+```{r}
 #A plot was created using the data frame that was previously loaded. 
 cell_density_graph <- ggplot(data = cell_density,
   mapping = aes(x = Time, y = Mean, color = factor(VLPMOI))) +
